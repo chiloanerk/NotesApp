@@ -1,1 +1,0 @@
-Hi, this is a simple note taking app using HTML, PHP and MySQL. The theming comes from bootstrap.
