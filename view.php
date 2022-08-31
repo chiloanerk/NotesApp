@@ -35,7 +35,7 @@ include "logic.php";
         <p class="mt-5 border-left border-dark pl-3"><?php echo $q['content'];?></p>
     <?php } ?>
 
-    <a href="index.php" class="btn btn-outline-dark my-3">Go Home</a>
+    <a href="index.html" class="btn btn-outline-dark my-3">Go Home</a>
 </div>
 
 <!-- Bootstrap JS -->

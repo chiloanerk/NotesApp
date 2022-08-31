@@ -25,7 +25,7 @@ if(isset($_REQUEST['new_post'])){
 
     echo $sql;
 
-    header("Location: index.php?info=added");
+    header("Location: index.html?info=added");
     exit();
 }
 
@@ -43,7 +43,7 @@ if(isset($_REQUEST['delete'])){
     $sql = "DELETE FROM data WHERE id = $id";
     mysqli_query($conn, $sql);
 
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
@@ -56,7 +56,7 @@ if(isset($_REQUEST['update'])){
     $sql = "UPDATE data SET title = '$title', content = '$content' WHERE id = $id";
     mysqli_query($conn, $sql);
 
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
